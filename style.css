@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: gainsboro;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.leftBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+
+}
+
+.leftBtns div{
+    font-size: xx-large;
+    font-weight: bold;
+    height: 100%;
+    width: 100px;
+    border: 1px solid grey;
+    text-align: center;
+}
+.leftBtns i{
+    font-size: x-large;
+    color: gray;
+}
+
+.rightBtns{
+    width: 200px;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightBtns div{
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.c1{
+    background-color: red;
+}
+.c2{
+    background-color: blue;
+}
+.c3{
+    background-color: orange;
+}
+.c4{
+    background-color: pink;
+}
+
+
+
+
+.body {
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: grey;
+    padding: 50px;
+}
+
+.todo{
+    width: 200px;   
+    height: 50px;
+    background-color: white;
+    font: x-large;
+    font-weight: bold;
+    margin: 10px;
+    position: relative;
+}
+
+.red::before{
+    content: ' ';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    height: 100%;
+    width: 10px;
+    background-color: red;
+}
+.blue::before{
+    content: ' ';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    height: 100%;
+    width: 10px;
+    background-color: blue;
+}
+.orange::before{
+    content: ' ';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    height: 100%;
+    width: 10px;
+    background-color: orange;
+}
+
+
+.addTodoPopup{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.popupDetails{
+    height: 500px;
+    width: 700px;
+    background-color: white;
+}
+
+.todoHead{
+    width: 100%;
+    height: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid gainsboro;
+}
+
+.popupBody{
+    height: calc(100% - 50px - 50px);
+}
+
+.todoBody{
+    height: 100%;
+    width: 100%;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    outline: none;
+    
+}
+
+.popupBtns{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+
+}
+
+.closeBtn{
+    width: 120px;
+    height: 30px;
+    font-size: large;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orange;
+    margin-right: 20px;
+}
+.submitBtn{
+    width: 120px;
+    height: 30px;
+    font-size: large;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:orange;
+    color: white;
+    margin-right: 20px;
+
+}
+
+.viewTodoWrapper{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.415);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.viewTodoDetail{
+    height: 500px;
+    width: 700px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.viewTodoCross{
+    height: 40px;
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.viewTodoHeader{
+    height: 50px;
+    width: 100%;
+    font: large;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 5px solid gainsboro;
+}
+
+
+.vewTodoBody{
+    height: calc(100% - 40px - 50px);
+    
+    width: 100%;
+    font: large;
+
+    padding: 15px;
+}
+
