@@ -13,3 +13,9 @@
 
 ### querySelector
 - https://www.w3schools.com/jsref/met_document_queryselector.asp
+
+### UI designs 
+- https://dribbble.com/
+
+### Event listners
+- https://www.w3schools.com/jsref/met_element_addeventlistener.asp
