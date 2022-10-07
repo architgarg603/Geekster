@@ -19,3 +19,6 @@
 
 ### Event listners
 - https://www.w3schools.com/jsref/met_element_addeventlistener.asp
+
+### Position CSS
+- https://www.w3schools.com/css/css_positioning.asp
